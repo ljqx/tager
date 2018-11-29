@@ -9,6 +9,12 @@
   "repository": {
     "url": "https://github.com/ljqx/tager"
   },
+  "keywords": [
+    "tagged template",
+    "template literals",
+    "template string"
+  ],
+  "license": "MIT",
   "main": "dist/index",
   "module": "src/index",
   "scripts": {
