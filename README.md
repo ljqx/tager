@@ -41,3 +41,9 @@ string
 `;
 // => ['multi', 'line', 'string', '']
 ```
+### regexp => RegExp
+
+```js
+regexp`\w+${1 + 1}*\node_modules/${'.bin'}`;
+// => /\w+2*\node_modules\/.bin/
+```
